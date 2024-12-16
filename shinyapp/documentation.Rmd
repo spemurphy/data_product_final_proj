@@ -1,0 +1,16 @@
+---
+title: "PL Fantasy Football 23-24 graph documentations"
+author: "spemurphy"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What this app does.
+
+This app is designed for picking players that may make a good addition to your fantasy football team for the 2024-25 season. By using the slider, users can see the impact expected goals (xG) has in predicting a players points per game. For the curious, you can then click on points on the graph to see what player it is. Players who are above the line are outperforming their xG, while players below the line are under-performing their xG. 
+
+
